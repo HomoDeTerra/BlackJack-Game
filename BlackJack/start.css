@@ -1,0 +1,67 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-image: url("images/felt.jpg");
+    background-size: cover;
+}
+
+h1{
+    color: goldenrod;
+    font-size: 30px;
+}
+
+#message-el{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    margin-bottom: 5px;
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding: 5px 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+
+#start-btn, #draw-btn, #restart-btn{
+    background-color: gray;
+}
+
+#bet-btn{
+    width: 50px;
+}
+
+input{
+    width: 150px;
+}
+
+#history-btn{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+
+}
+
+#history-el{
+    list-style-type: none;
+    text-align: left;
+    padding: 1px 1px;
+}
+
+table{
+    position: fixed;
+    right: 120px;
+    bottom: 135px;
+ }
+
+.choose{
+    display: none;
+
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Game</title>
+        <link rel="stylesheet" href="start.css">
+    </head>
+    <body>
+        <h1>Blackjack</h1>
+        <p id="message-el">Start the game by making a bet</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <input type="text" id="bidValue-el" placeholder="Your bet"></input>
+        <button id="bet-btn">BET</button>
+        <br>
+        <button id="start-btn">START GAME</button>
+        <button id="draw-btn">DRAW CARD</button>
+        <button id="restart-btn">RESTART GAME</button>
+        <br>
+        <button id="one-btn" class="choose">1</button>
+        <button id="eleven-btn" class="choose">11</button>
+        <p id="statistics-el"></p>
+        <table id="table-el">
+            <tr>
+                <td>
+                    <ul id="history-el"></ul>
+                </td>
+            </tr>
+        </table>
+        <button id="history-btn">CLEAR HISTORY</button>
+        <script src="start.js"></script>
+    </body>
+</html>
